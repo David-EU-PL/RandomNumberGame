@@ -14,7 +14,7 @@
             {
                 numberOfTries++;
                 Console.WriteLine("\nPodaj Twój typ liczby: ");
-                var userNumber = getNumber();
+                var userNumber = GetNumber();
 
                 if (userNumber < randomNumber)
                 {
@@ -31,7 +31,7 @@
             }
         }
 
-        private static int getNumber()
+        private static int GetNumber()
         {
             while (true)
             {
